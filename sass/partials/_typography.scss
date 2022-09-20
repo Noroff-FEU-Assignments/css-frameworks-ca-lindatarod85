@@ -1,0 +1,25 @@
+/*Logo*/
+.navbar-brand{
+    font-family: $font-headings;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+}
+
+/*Nav links*/
+.nav-item {
+    font-family: $font-primary;
+    font-size: 16px;
+}
+
+h1{
+    font-family: $font-headings;
+    color: $primary-colour;
+}
+
+p{
+    font-family: $font-primary;
+    color: $secondary-colour;
+    font-size: 16px;
+}
+

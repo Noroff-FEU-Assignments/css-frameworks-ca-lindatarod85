@@ -1,0 +1,26 @@
+.accordion-item .accordion-button{
+    color: $primary-colour;
+}
+
+.accordion-button:not(.collapsed) {
+   
+    background-color: $header-colour !important;
+  }
+
+  .accordion-collapse{
+    background-color: $header-colour;
+    border-top: 2px solid $primary-colour;
+  }
+
+  .accordion-button:after{
+      display: none;
+  }
+
+  @media(max-width: 991px){
+      .social-media{
+          margin-top: 20px;
+      }
+  }
+
+ 
+

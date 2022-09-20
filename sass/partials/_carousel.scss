@@ -1,0 +1,22 @@
+.carousel img{
+    max-height: 600px;
+    object-fit: cover;
+}
+
+@media(max-width: 991px){
+    .carousel img{
+        height: 300px;
+    }
+}
+
+.carousel .carousel-indicators button{
+width: 30px;
+height: 30px;
+background-color: $white-colour;
+opacity: 1;
+
+&.active{
+    background-color: $primary-colour;
+}
+}
+
