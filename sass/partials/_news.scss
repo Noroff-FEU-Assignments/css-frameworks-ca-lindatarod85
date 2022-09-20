@@ -1,0 +1,40 @@
+.card img{
+    height: 200px;
+    object-fit: cover;
+}
+
+.card .card-title{
+    color: $dark-colour;
+}
+
+.card .card-text{
+    color: $secondary-colour;
+}
+
+.card .btn{
+    background-color: $primary-colour;
+    color: $white-colour;
+    width: 100%;
+    position: relative;
+    border: none;
+}
+
+.card .btn:hover{
+    background-color: $secondary-colour;
+    color: $white-colour;
+}
+
+.card .btn::after{
+    content:"";
+	background-color: $secondary-colour;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 36px;
+    width: 30px;
+    border-radius: 0 0.375rem 0.375rem 0;
+}
+
+@media(max-width: 767px){
+
+}

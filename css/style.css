@@ -1,10 +1,10 @@
 /*Colours*/
 /*Fonts*/
 body {
-  background-color: #EFEFEF;
+  background-color: #E4E4E4;
 }
 
-.container {
+.container-main {
   padding-top: 40px;
 }
 
@@ -34,7 +34,7 @@ p {
 }
 
 .navbar {
-  padding: 10px 40px;
+  padding: 10px 0;
   background-color: #EFEFEF;
 }
 
@@ -145,6 +145,44 @@ p {
     margin-top: 20px;
   }
 }
+.card img {
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card .card-title {
+  color: #0A0A0A;
+}
+
+.card .card-text {
+  color: #767676;
+}
+
+.card .btn {
+  background-color: #E92569;
+  color: white;
+  width: 100%;
+  position: relative;
+  border: none;
+}
+
+.card .btn:hover {
+  background-color: #767676;
+  color: white;
+}
+
+.card .btn::after {
+  content: "";
+  background-color: #767676;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 36px;
+  width: 30px;
+  border-radius: 0 0.375rem 0.375rem 0;
+}
+
 .carousel img {
   max-height: 600px;
   -o-object-fit: cover;
@@ -200,12 +238,30 @@ p {
   color: #767676;
 }
 
+.pagination .active span {
+  color: white;
+  background-color: #E92569 !important;
+  border: solid 1px #E92569 !important;
+}
+
+.pagination a {
+  color: #E92569;
+  border: 1px solid #E92569;
+}
+
+.pagination a:hover {
+  color: #E92569;
+}
+
 footer {
+  background-color: #FFFFFF;
+  padding: 15px 0 15px 0;
+}
+
+footer .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 40px;
-  background-color: #FFFFFF;
 }
 
 footer p {
@@ -217,16 +273,20 @@ footer p {
 }
 
 @media (max-width: 767px) {
-  footer {
+  footer .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
   }
   footer p:nth-of-type(1) {
     grid-column: 1;
+    display: grid;
+    justify-self: start;
   }
   footer p:nth-of-type(2) {
     grid-column: 3;
+    display: grid;
+    justify-self: end;
   }
   .footer-icons {
     grid-column: 2;

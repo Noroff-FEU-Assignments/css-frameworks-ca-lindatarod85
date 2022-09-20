@@ -1,0 +1,15 @@
+.pagination .active span
+{
+    color: white;
+    background-color: $primary-colour !important;
+    border: solid 1px $primary-colour !important
+}
+
+.pagination a{
+    color: $primary-colour;
+    border: 1px solid $primary-colour;
+}
+
+.pagination a:hover{
+    color: $primary-colour;
+}
