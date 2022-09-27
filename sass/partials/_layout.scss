@@ -1,9 +1,27 @@
+html, body{
+    height: 100%;
+}
+
 body{
     background-color: $body-background;
+    display: flex;
+    flex-direction: column;
 }
 
 .container-main{
     padding-top:  40px;
+}
+
+@media(max-width: $mobile){
+    .container-main{
+        width: 310px;
+        margin: 0 auto;
+    }
+}
+
+
+.wrapper {
+    flex: 1 0 auto;
 }
 
 

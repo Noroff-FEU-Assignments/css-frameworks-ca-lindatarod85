@@ -3,7 +3,7 @@
     object-fit: cover;
 }
 
-@media(max-width: 991px){
+@media(max-width: $tablet){
     .carousel img{
         height: 300px;
     }

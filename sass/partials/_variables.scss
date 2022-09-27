@@ -4,8 +4,14 @@ $secondary-colour: #767676;
 $dark-colour: #0A0A0A;
 $header-colour: #EFEFEF;
 $white-colour: #FFFFFF;
-$body-background: #FFFFFF - #E5E5E5;
+$body-background: #E5E5E5;
+$light-grey: #C7C7C7;
 
 /*Fonts*/
 $font-primary: 'Lato', sans-serif;
 $font-headings: 'Playfair Display', serif;
+
+/*Breakpoints*/
+
+$tablet: 991px;
+$mobile: 767px;

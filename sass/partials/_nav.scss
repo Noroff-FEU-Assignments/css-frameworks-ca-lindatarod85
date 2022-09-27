@@ -24,7 +24,7 @@
     border-radius: 3px;
 }
 
-@media(max-width: 991px){
+@media(max-width: $tablet){
     .nav-item a{
         padding-left: 20px;
     }
