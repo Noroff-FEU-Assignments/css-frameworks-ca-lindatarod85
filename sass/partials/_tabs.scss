@@ -1,34 +1,33 @@
-.nav-tabs{
-    padding-top: 60px;
+.nav-tabs {
+  padding-top: 60px;
 }
 
-.tab-content .row{
-    padding: 40px;
+.tab-content .row {
+  padding: 40px;
 }
 
-.tab-content{
-    background-color: $white-colour;
+.tab-content {
+  background-color: $white-colour;
 }
 
-.social-media{
-    display: flex; 
+.social-media {
+  display: flex;
 }
 
-.social-media i{
-    padding: 10px 0 0 10px;
-    color: $dark-colour
+.social-media i {
+  padding: 10px 0 0 10px;
+  color: $dark-colour;
 }
 
-.social-media p{
-    color: $dark-colour;
+.social-media p {
+  color: $dark-colour;
 }
 
-.nav-tabs button{
-    color: $primary-colour;
-    background-color: transparent;
+.nav-tabs button {
+  color: $primary-colour;
+  background-color: transparent;
 }
 
-.nav-tabs .nav-item .active{
-    color: $secondary-colour;
+.nav-tabs .nav-item .active {
+  color: $secondary-colour;
 }
-

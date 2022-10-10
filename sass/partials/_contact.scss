@@ -1,26 +1,27 @@
-.contact-info{
-    margin-top: 40px;
+.contact-info {
+  margin-top: 40px;
 }
 
-.mail, .phone{
-    display: grid;
-    grid-template-columns: 50px 150px;
-    align-items: center;
-    margin-bottom: 20px;
+.mail,
+.phone {
+  display: grid;
+  grid-template-columns: 50px 150px;
+  align-items: center;
+  margin-bottom: 20px;
+  color: $secondary-colour;
+
+  & a {
     color: $secondary-colour;
-
-    & a{
-        color: $secondary-colour;
-        text-decoration: none;
-    }
+    text-decoration: none;
+  }
 }
 
-.location{
-    display: grid;
-    grid-template-columns: 50px 150px;  
-    color: $secondary-colour;
+.location {
+  display: grid;
+  grid-template-columns: 50px 150px;
+  color: $secondary-colour;
 }
 
-.location p{
-    margin-bottom: 0;
+.location p {
+  margin-bottom: 0;
 }
